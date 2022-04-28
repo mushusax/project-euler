@@ -4,6 +4,15 @@
 
 class ProblemFive {
     fun driver(range: Int): Int {
-        return 1
+        return (1 until Int.MAX_VALUE).find { num -> numberDivisibleInRange(num, range) } ?: 0
+    }
+
+    fun numberDivisibleInRange(number: Int, range: Int): Boolean {
+        (1..range).forEach { i ->
+            if (number.mod(i) != 0) {
+                return false
+            }
+        }
+        return true
     }
 }
