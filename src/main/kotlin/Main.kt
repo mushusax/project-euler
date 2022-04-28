@@ -5,5 +5,7 @@ fun main(args: Array<String>) {
         1 -> println(ProblemOne().sumOfMultiplesOfThreeAndFive())
         2 -> println(ProblemTwo().driver())
         3 -> println(ProblemThree().driver())
+        4 -> println(ProblemFour().driver())
+        5 -> println(ProblemFive().driver(20))
     }
 }
