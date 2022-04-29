@@ -8,5 +8,6 @@ fun main(args: Array<String>) {
         4 -> println(ProblemFour().driver())
         5 -> println(ProblemFive().driver(20))
         6 -> println(ProblemSix().driver(100))
+        7 -> println(ProblemSeven().driver(10001))
     }
 }
