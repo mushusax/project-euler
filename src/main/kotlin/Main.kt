@@ -7,5 +7,6 @@ fun main(args: Array<String>) {
         3 -> println(ProblemThree().driver())
         4 -> println(ProblemFour().driver())
         5 -> println(ProblemFive().driver(20))
+        6 -> println(ProblemSix().driver(100))
     }
 }
